@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Code Assistant</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main.js" type="module" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>AI Code Assistant</h1>
+      <div
+        id="loading-indicator"
+        class="loading-indicator"
+        style="display: none"
+      >
+        <span class="spinner"></span> Loading model...
+      </div>
+      <p>
+        Start typing JavaScript code below. The AI will suggest completions
+        after you stop typing for 1 second. Press <strong>Tab</strong> to accept
+        suggestions or <strong>Esc</strong> to dismiss them.
+      </p>
+      <textarea
+        id="long-text-input"
+        placeholder="Start typing JavaScript code..."
+        rows="10"
+        style="font-family: 'Courier New', monospace; font-size: 14px"
+      ></textarea>
+    </div>
+  </body>
+</html>
