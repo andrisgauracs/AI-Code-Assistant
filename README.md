@@ -1,6 +1,7 @@
 # AI Code Assistant
 
 A real-time AI-powered code completion assistant using the Granite-4.0 model and WebGPU acceleration.
+As featured in: https://youtu.be/31r6yxbmrFo
 
 ![ai_code_assistant](https://github.com/user-attachments/assets/8869c4c6-1e57-4d77-95e7-bcad213bd7d3)
 
